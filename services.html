@@ -1,0 +1,191 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Reparación de Computadoras</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif; /* Estilo de fuente por defecto */
+            margin: 0; /* Elimina el margen predeterminado */
+            padding: 0; /* Elimina el padding predeterminado */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .content {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px 0;
+        }
+
+        .service-list {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            position: relative; /* Para posicionar el botón "Comprar" */
+        }
+
+        .service-list h3 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .service-list p {
+            color: #666;
+        }
+
+        .btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        .btn-buy {
+            background-color: #007bff; /* Azul típico de los botones de compra */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            position: absolute;
+            right: 20px; /* Posición a la derecha */
+            bottom: 20px; /* Posición hacia abajo */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-buy:hover {
+            background-color: #0056b3; /* Cambio de color al pasar el cursor */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Reparación de Computadoras</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="content">
+    <div class="container">
+        <h2>Servicios</h2>
+        <p>¡Bienvenido a nuestra página de servicios! Aquí encontrarás una lista de los servicios que ofrecemos para la reparación de computadoras.</p>
+        <p>No dudes en ponerte en contacto con nosotros si necesitas más información sobre alguno de nuestros servicios.</p>
+
+        <div class="service-list">
+            <h3>Servicio de Reparación de Hardware</h3>
+            <p>Nuestros técnicos están capacitados para diagnosticar y reparar problemas de hardware en computadoras de escritorio y portátiles.</p>
+            <a href="#" class="btn">Más información</a>
+            <a href="#" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="service-list">
+            <h3>Recuperación de Datos</h3>
+            <p>Ofrecemos servicios de recuperación de datos perdidos debido a fallos de hardware, eliminación accidental, o formateo incorrecto de discos.</p>
+            <a href="#" class="btn">Más información</a>
+            <a href="#" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="service-list">
+            <h3>Optimización de Rendimiento</h3>
+            <p>Mejoramos el rendimiento general de tu computadora eliminando software no deseado, optimizando el sistema operativo y actualizando los controladores necesarios.</p>
+            <a href="#" class="btn">Más información</a>
+            <a href="#" class="btn-buy">Comprar</a>
+        </div>
+
+        <div class="service-list">
+            <h3>Instalación y Actualización de Software</h3>
+            <p>Nos encargamos de la instalación segura y actualización de software esencial para tu computadora, asegurando que esté protegida contra vulnerabilidades y funcionando correctamente.</p>
+            <a href="#" class="btn">Más información</a>
+            <a href="#" class="btn-buy">Comprar</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Derechos de Autor © 2024 Reparación de Computadoras</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
